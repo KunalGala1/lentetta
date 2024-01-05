@@ -19,7 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={font.className + ' bg-slate-50 text-slate-950'}>
+      <body
+        className={
+          font.className + ' bg-slate-50 text-slate-950 leading-relaxed'
+        }
+      >
         {children}
       </body>
     </html>

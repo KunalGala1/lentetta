@@ -10,13 +10,14 @@ export type ProfileType = {
   };
   shortBio: string;
   fullBio: PortableTextBlock[];
+  featuredRecording: RecordingType;
 };
 
 export type RecordingType = {
   _id: string;
   title: string;
   subtitle: string;
-  soundcloudId: string;
+  url: string;
 };
 
 export type WorksType = {

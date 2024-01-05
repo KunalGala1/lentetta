@@ -49,7 +49,7 @@ const WorkBySlugPage = ({ params }: { params: { slug: string } }) => {
           <div>
             <Link
               href={'/works'}
-              className='text-slate-950 inline-block bg-green-300 hover:bg-green-300/80 py-2 px-3 rounded shadow'
+              className='text-slate-950 inline-block bg-green-200 hover:bg-green-200/80 py-2 px-3 rounded shadow'
             >
               Back to works
             </Link>

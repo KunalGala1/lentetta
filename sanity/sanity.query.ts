@@ -9,7 +9,8 @@ export const getProfile = async () => {
               headline,
               image {alt, "image": asset->url},
               shortBio,
-              fullBio
+              fullBio,
+              "featuredRecording": featuredRecording->{title, subtitle, soundcloudId}
           }`
   );
 };
@@ -20,7 +21,7 @@ export const getRecordings = async () => {
         _id,
         title,
         subtitle,
-        soundcloudId
+        url
       }`
   );
 };

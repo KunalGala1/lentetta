@@ -22,8 +22,8 @@ const recording = {
       type: 'date',
     },
     {
-      name: 'soundcloudId',
-      title: 'Soundcloud ID',
+      name: 'url',
+      title: 'Url',
       type: 'string',
     },
   ],

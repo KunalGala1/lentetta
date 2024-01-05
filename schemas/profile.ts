@@ -41,6 +41,12 @@ const profile = {
         },
       ],
     },
+    {
+      name: 'featuredRecording',
+      title: 'Featured Recording',
+      type: 'reference',
+      to: [{ type: 'recording' }],
+    },
   ],
 };
 
