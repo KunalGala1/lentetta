@@ -28,7 +28,7 @@ export const getRecordings = async () => {
 
 export const getWorks = async () => {
   return client.fetch(
-    groq`*[_type == 'work'] {
+    groq`*[_type == 'work'] | order(year desc) {
       _id,
       title,
       subtitle,
